@@ -34,7 +34,7 @@
   ```bash
   ip a
   ```
-  Check your Default gateway:  
+  Check your Default gateway:(victim)
   ```bash
   ip route
   ```
