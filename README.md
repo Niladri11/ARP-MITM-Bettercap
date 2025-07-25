@@ -1,9 +1,11 @@
 # ARP-MITM-Bettercap
-MITM Attack using ARP Spoofing with Bettercap (Educational Purpose Only)
-##LAB SET-UP
+MITM Attack using ARP Spoofing with Bettercap (Educational Purpose Only)  
+
+## LAB SET-UP
 ### 💻 Attacker Machine
 
-**OS**: Kali Linux 2024.1
+**OS**: Kali Linux 2024.1  
+
 **Tool Used**: Bettercap  
 
 **IP Address**: 192.168.1.5  
@@ -22,6 +24,9 @@ MITM Attack using ARP Spoofing with Bettercap (Educational Purpose Only)
 
 ### 🌐 Network Setup
 
-**Type**: Bridged Adapter (VirtualBox)
-**Interface**: `eth0` (for attacker)
-**Same Local Network**: Yes ✅
+**Type**: Bridged Adapter (VirtualBox)  
+
+**Interface**: `eth0` (for attacker)  
+
+**Same Local Network**: Yes ✅  
+
