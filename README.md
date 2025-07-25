@@ -1,5 +1,5 @@
 # ARP-MITM-Bettercap
-MITM Attack using ARP Spoofing with Bettercap (Educational Purpose Only)  
+> ⚠️ **Disclaimer**: This project is for educational purposes only. Do **not** perform these actions on networks you do not own or have explicit permission to test. Unauthorized access is illegal.
 
 ## LAB SET-UP
 ### 💻 Attacker Machine
@@ -53,14 +53,12 @@ MITM Attack using ARP Spoofing with Bettercap (Educational Purpose Only)
     net.sniff on
     ```
 
-5. **Ask victim to visit:**
-   ### use http website...
-   **Example:**
+5. **Ask the victim to visit a non-HTTPS site** (for demonstration):
     ```
     http://testphp.vulnweb.com/login.php
     ```
 
-7. **Captured Output:**
+6. **Captured Output:**
     ```
     POST /userinfo.php uname=loc&pass=mor
     ```
