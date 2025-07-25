@@ -30,16 +30,20 @@
 
 **Same Local Network**: Yes ✅   
 
-Check your network  interface:  
-```
-ip a
-```
+  Check your network  interface:  
+  ```bash
+  ip a
+  ```
+  Check your Default gateway:  
+  ```bash
+  ip route
+  ```
 Install **Bettercap** if not already installed:
 
 ```bash
-sudo apt update
-sudo apt install bettercap
-```
+ sudo apt update
+ sudo apt install bettercap
+ ```
 
 1. **Start Bettercap:**
     ```bash
