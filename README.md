@@ -6,7 +6,7 @@ git clone https://github.com/YOUR_USERNAME/arp-mitm-bettercap.git
 # Step 2: Move into the folder
 cd arp-mitm-bettercap
 
-# Step 3: Add README.md and other files
+## Step 3: Add README.md and other files
 mv ~/Downloads/README.md .
 mkdir screenshots
 mv ~/Downloads/net-show.png screenshots/
