@@ -30,6 +30,17 @@
 
 **Same Local Network**: Yes ✅   
 
+Check your network  interface:  
+```
+ip a
+```
+Install **Bettercap** if not already installed:
+
+```bash
+sudo apt update
+sudo apt install bettercap
+```
+
 1. **Start Bettercap:**
     ```bash
     sudo bettercap -iface eth0
