@@ -114,8 +114,5 @@ net.show
           uname=demoUser&pass=demoPass
 
     ```
----
 
-## 📄 License
-MIT
 
