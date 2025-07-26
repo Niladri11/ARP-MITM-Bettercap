@@ -61,9 +61,23 @@ Install **Bettercap** if not already installed:
     192.168.1.0/24 > 192.168.1.5  » [10:09:18] [endpoint.new] endpoint fe80::1234:abcd:5678:90ef detected as **AA:BB:CC:DD:EE:01** (Generic Device Vendor)
     192.168.1.0/24 > 192.168.1.5  » [10:09:18] [endpoint.new] endpoint 192.168.1.10 detected as **AA:BB:CC:DD:EE:02** (Generic Device Vendor)
 ```
-  ``` bash
-      net.show
-   ```
+
+```bash
+net.show
+```
+```output
+192.168.1.0/24 > 192.168.1.5  » net.show
+
+┌────────────────────────────┬────────────────────┬─────────────────┬──────────────────────────────────────────────┬───────┬───────┬──────────┐
+│           IP ▴             │        MAC         │      Name       │                    Vendor                    │ Sent  │ Recvd │   Seen   │
+├────────────────────────────┼────────────────────┼─────────────────┼──────────────────────────────────────────────┼───────┼───────┼──────────┤
+│ 192.168.1.5                │ AA:BB:CC:11:22:33   │ eth0            │ PCS Systemtechnik GmbH                       │ 0 B   │ 0 B   │ 10:09:11 │
+│ 192.168.1.13               │ DD:EE:FF:44:55:66   │ gateway         │                                              │ 695 B │ 477 B │ 10:09:11 │
+│                            │                    │                 │                                              │       │       │          │
+│ fe80::xxxx:xxxx:xxxx:xxxx  │ FF:AA:CC:77:88:99   │ LAPTOP-USER     │ CLOUD NETWORK TECHNOLOGY SINGAPORE PTE. LTD. │ 0 B   │ 0 B   │ 10:09:20 │
+│ 192.168.1.10               │ 11:22:33:44:55:66   │                 │ PCS Systemtechnik GmbH                       │ 120 B │ 92 B  │ 10:09:20 │
+└────────────────────────────┴────────────────────┴─────────────────┴──────────────────────────────────────────────┴───────┴───────┴──────────┘
+```
 
 3. **Set Victim IP:**
     ```bash
