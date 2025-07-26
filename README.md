@@ -53,8 +53,17 @@ Install **Bettercap** if not already installed:
 2. **Scan Network:**
     ```bash
     net.probe on
-    net.show
     ```
+    ``` output
+    192.168.1.0/24 > 192.168.1.5  » net.probe on
+    [10:09:18] [sys.log] [inf] net.probe starting net.recon as a requirement for net.probe
+    192.168.1.0/24 > 192.168.1.5  » [10:09:18] [sys.log] [inf] net.probe probing 256 addresses on 192.168.1.0/24
+    192.168.1.0/24 > 192.168.1.5  » [10:09:18] [endpoint.new] endpoint fe80::1234:abcd:5678:90ef detected as **AA:BB:CC:DD:EE:01** (Generic Device Vendor)
+    192.168.1.0/24 > 192.168.1.5  » [10:09:18] [endpoint.new] endpoint 192.168.1.10 detected as **AA:BB:CC:DD:EE:02** (Generic Device Vendor)
+```
+  ``` bash
+      net.show
+   ```
 
 3. **Set Victim IP:**
     ```bash
