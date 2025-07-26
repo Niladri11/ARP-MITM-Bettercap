@@ -74,8 +74,23 @@ Install **Bettercap** if not already installed:
     ```
 
 6. **Captured Output:**
-    ```
-    POST /userinfo.php uname=Alok&pass=1234
+    ```OUTPUT
+    192.168.1.0/24 > 192.168.1.5  » [10:10:36] [net.sniff.http.request] http 192.168.1.10 POST testphp.vulnweb.com/userinfo.php                                                                                              POST /userinfo.php HTTP/1.1
+          Host: testphp.vulnweb.com
+          Origin: http://testphp.vulnweb.com
+          Connection: keep-alive
+          Upgrade-Insecure-Requests: 1
+          Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+          Accept-Encoding: gzip, deflate
+          Content-Type: application/x-www-form-urlencoded
+          Content-Length: 23
+          Priority: u=0, i
+          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0
+          Accept-Language: en-US,en;q=0.5
+          Referer: http://testphp.vulnweb.com/login.php
+
+          uname=demoUser&pass=demoPass
+
     ```
 ---
 
