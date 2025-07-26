@@ -62,7 +62,6 @@ Install **Bettercap** if not already installed:
     192.168.1.0/24 > 192.168.1.5  » [10:09:18] [endpoint.new] endpoint 192.168.1.10 detected as **AA:BB:CC:DD:EE:02** (Generic Device Vendor)
 ```
 
-```bash
 net.show
 ```
 ```output
