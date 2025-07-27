@@ -45,9 +45,9 @@ Install **Bettercap** if not already installed:
  sudo apt install bettercap
  ```
 
-1. **Start Bettercap:**
+1. **Start Bettercap and save logs in a file:**
     ```bash
-    sudo bettercap -iface eth0
+    sudo bettercap -iface eth0 | tee <Name of the file>.txt
     ```
 
 2. **Scan Network:**
@@ -114,5 +114,8 @@ net.show
           uname=demoUser&pass=demoPass
 
     ```
+   7.**see the output**
+   ```
+   cat <Name of the file>.txt
 
-
+  ```
