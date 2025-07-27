@@ -117,5 +117,4 @@ net.show
    7.**see the output**
    ```
    cat <Name of the file>.txt
-
   ```
