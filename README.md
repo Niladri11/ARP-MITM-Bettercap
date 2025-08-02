@@ -98,7 +98,7 @@ net.show
     ```
 
 5. **Ask the victim to visit a non-HTTPS site** (for demonstration):
-    ```
+    ```bash
     http://testphp.vulnweb.com/login.php
     ```
 
@@ -123,6 +123,6 @@ net.show
 
     
    7.**see the output**
-   ```
+   ```bash
    cat <Name of the file>.txt
   ```
