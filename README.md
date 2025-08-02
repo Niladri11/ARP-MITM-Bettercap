@@ -59,6 +59,7 @@ Install **Bettercap** if not already installed:
     ```bash
     net.probe on
     ```
+    ## Observing Output
     ``` output
     192.168.1.0/24 > 192.168.1.5  » net.probe on
     [10:09:18] [sys.log] [inf] net.probe starting net.recon as a requirement for net.probe
@@ -69,6 +70,7 @@ Install **Bettercap** if not already installed:
 
 net.show
 ```
+## Observing Output
 ```output
 192.168.1.0/24 > 192.168.1.5  » net.show
 
