@@ -1,6 +1,12 @@
 # ARP-MITM-Bettercap
 > ⚠️ **Disclaimer**: This project is for educational purposes only. Do **not** perform these actions on networks you do not own or have explicit permission to test. Unauthorized access is illegal.
 
+## 🎯 Objective
+
+The goal of this project is to demonstrate an ARP spoofing-based Man-In-The-Middle (MITM) attack using **Bettercap** to capture unencrypted credentials and analyze potential network vulnerabilities.  
+This project is built for educational and awareness purposes in controlled lab environments.  
+
+
 ## LAB SET-UP
 ### 💻 Attacker Machine
 
