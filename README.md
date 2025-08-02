@@ -36,11 +36,11 @@ The main objective of our project is to demonstrate Man-in-the -Middle attack us
 **Same Local Network**: Yes ✅   
 
   Check your network  interface:  
-  ```   bash
+  ```bash
   ip a
   ```
   Check your Default gateway:(victim)
-  ```  bash
+  ```bash
   ip route
   ```
 Install **Bettercap** if not already installed:
@@ -59,7 +59,7 @@ Install **Bettercap** if not already installed:
     ```bash
     net.probe on
     ```
-    ## Observing Output
+    ### Observing Output
     ``` output
     192.168.1.0/24 > 192.168.1.5  » net.probe on
     [10:09:18] [sys.log] [inf] net.probe starting net.recon as a requirement for net.probe
@@ -70,7 +70,7 @@ Install **Bettercap** if not already installed:
 
 net.show
 ```
-## Observing Output
+### Observing Output
 ```output
 192.168.1.0/24 > 192.168.1.5  » net.show
 
@@ -103,6 +103,7 @@ net.show
     ```
 
 6. **Captured Output:**
+### Observing Output
     ```OUTPUT
     192.168.1.0/24 > 192.168.1.5  » [10:10:36] [net.sniff.http.request] http 192.168.1.10 POST testphp.vulnweb.com/userinfo.php                                                                                              POST /userinfo.php HTTP/1.1
           Host: testphp.vulnweb.com
