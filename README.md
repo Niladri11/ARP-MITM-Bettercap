@@ -36,11 +36,11 @@ The main objective of our project is to demonstrate Man-in-the -Middle attack us
 **Same Local Network**: Yes ✅   
 
   Check your network  interface:  
-  ```bash
+  ```   bash
   ip a
   ```
   Check your Default gateway:(victim)
-  ```bash
+  ```  bash
   ip route
   ```
 Install **Bettercap** if not already installed:
