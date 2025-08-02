@@ -104,7 +104,7 @@ net.show
 
 6. **Captured Output:**
 ### Observing Output
-    ```OUTPUT
+  
     192.168.1.0/24 > 192.168.1.5  » [10:10:36] [net.sniff.http.request] http 192.168.1.10 POST testphp.vulnweb.com/userinfo.php                                                                                              POST /userinfo.php HTTP/1.1
           Host: testphp.vulnweb.com
           Origin: http://testphp.vulnweb.com
@@ -121,7 +121,7 @@ net.show
 
           uname=demoUser&pass=demoPass
 
-    ```
+    
    7.**see the output**
    ```
    cat <Name of the file>.txt
