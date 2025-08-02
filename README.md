@@ -3,8 +3,7 @@
 
 ## 🎯 Objective
 
-The goal of this project is to demonstrate an ARP spoofing-based Man-In-The-Middle (MITM) attack using **Bettercap** to capture unencrypted credentials and analyze potential network vulnerabilities.  
-This project is built for educational and awareness purposes in controlled lab environments.  
+The main objective of our project is to demonstrate Man-in-the -Middle attack using ARP spoofing. This includes capturing unencrypted http packet through traffic sniffing and storing the log in a file for further use which include security risk associated with such attacks on unsecured networks.   
 
 
 ## LAB SET-UP
